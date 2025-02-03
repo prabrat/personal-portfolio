@@ -1,0 +1,12 @@
+
+.bio { 
+    justify-content: left;
+    align-items: left;
+}
+.resumeButton { 
+    margin-top: 5rem;
+    background-color:black;
+    color: antiquewhite;
+    padding: 1.5rem; 
+    font-size: 40px;
+}
