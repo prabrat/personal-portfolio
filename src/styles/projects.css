@@ -10,12 +10,13 @@
   }
   
   .title {
-    margin-bottom: 80px;
+    margin-bottom: 70px;
   }
 
-  .projects h2 { 
+  .projects p {
     font-size: 50px;
-  }
+    color: var(--text-color);  /* Change text color */
+}
   
   .ea {
     display: flex;
@@ -86,6 +87,16 @@
     font-size: 0.9rem;
     margin: 0.5rem 0;
     max-width: 80%;
+  }
+
+  .info h3 { 
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .info p { 
+    font-size: 20px;
+    color: white;  /* Change text color */
   }
   
   .info a {

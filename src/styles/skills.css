@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 130px; /* Space between icons */
+    gap: 150px; /* Space between icons */
     font-size: 40px; /* Adjust icon size */
   }
   

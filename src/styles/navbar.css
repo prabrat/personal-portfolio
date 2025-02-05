@@ -7,7 +7,7 @@
     --dropdown-hover: #252525;
     --button-bg: #000000;
     --button-text: white;
-    --border-color: rgb(115, 115, 115); 
+    --border-color: rgb(70, 70, 70); 
 
 }
 
@@ -32,7 +32,7 @@ body {
 
 /* Navbar Styles */
 .navbar {
-    width: 50%;
+    width: 45%;
     height: 60px;
     background-color: var(--navbar-bg);
     border: 1px solid var(--border-color); 
@@ -63,6 +63,8 @@ body {
 .dropdown-title {
     padding: 10px 20px;
     user-select: none;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 /* Dropdown Content */
@@ -89,6 +91,7 @@ body {
     align-items: center;
     text-decoration: none;
     white-space: nowrap;
+    font-weight: 400;
 }
 
 .icon {
@@ -108,7 +111,7 @@ body {
 .theme-toggle {
     background: var(--button-bg);
     color: var(--button-text);
-    border: 2px solid var(--text-color); 
+    border: 1.5px solid var(--text-color); 
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;

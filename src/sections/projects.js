@@ -30,7 +30,7 @@ function Projects() {
   return (
     <section> 
         <div className='projects'>
-            <h2 className='title'>My Projects</h2>
+            <p className='title'>My Projects</p>
             <div className='ea'> 
                 {projects.map((project, index) => ( 
                     <motion.div key={index} className="project-card" whileHover={{ scale: 1.05 }}> 

@@ -13,7 +13,7 @@ function Home({ toggleTheme }) {
 
         <div className='bio' style={{ float: 'left' }}> 
             <p>Hello, I'm <span className='myName'>Prabhat.</span></p>
-            <p>I'm an aspiring software engineer.</p>
+            <p className='intro'>I'm an aspiring software engineer.</p>
 
             {/*<p>I’m a Computer Science student at the University of Maryland, <br/> 
                 actively building full-stack web applications and honing my skills in software engineering and cybersecurity.</p>
