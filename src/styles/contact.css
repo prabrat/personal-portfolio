@@ -65,6 +65,7 @@ form {
     font-size: 1rem;
     font-family: 'Courier New', Courier, monospace;
     width: 500px;
+    color: var(--placeholder);
   }
 
   form textarea {
@@ -80,3 +81,16 @@ form {
   form input::placeholder, form textarea::placeholder { 
     color: var(--placeholder);
   }
+
+  .success-message {
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
