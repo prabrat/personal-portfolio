@@ -1,0 +1,19 @@
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .skill-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px; /* Space between icons */
+    font-size: 40px; /* Adjust icon size */
+  }
+  
+  .skill-icons svg {
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,97 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: var(--bg-color);  /* Change background color */
+    color: var(--text-color);  /* Change text color */
+    margin-bottom: 0;
+}
+
+/* Profile Image */
+.homeImage img {
+    max-width: 300px;
+    height: auto;
+}
+
+/* Bio Section */
+.bio {
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.bio h1 {
+    font-size: var(--font-size-large);
+    color: var(--text-color);  /* heading color matches theme */
+}
+
+.bio p {
+    margin: 0; /* Resets margin since I can't figure out what is overriding  margin-bottom */
+    font-size: 50px;
+    color: var(--text-color);  /* Change text color */
+    margin-bottom: 2px;
+}
+
+.myName { 
+    color: rgb(206, 53, 53);
+}
+/* Resume Button */
+.resumeButton {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 2rem;
+    background-color: var(--button-bg);  
+    color: var(--button-text); 
+    padding: 1rem 2rem;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    border: 1px solid var(--border-color); 
+    margin-bottom: 0;
+}
+
+.resumeButton:hover {
+    background-color: var(--dropdown-hover); 
+}
+
+/* Projects Section */
+.projects {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 3rem;
+    padding: 2rem;
+    /* border-top: 2px solid var(--border-color); */ 
+    background-color: var(--bg-color);  
+}
+
+.projects h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--text-color);  
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .home {
+        padding: 3rem 1rem;
+    }
+
+    .homeImage img {
+        max-width: 200px;
+    }
+
+    .bio h1 {
+        font-size: 32px;
+    }
+
+    .bio p {
+        font-size: 18px;
+    }
+
+    .resumeButton {
+        font-size: 18px;
+        padding: 0.8rem 1.5rem;
+    }
+}
