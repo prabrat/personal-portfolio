@@ -4,6 +4,7 @@ import resume from "../assets/Prabhat Jain-Resume.pdf"
 import tempImg from '../assets/tmp.png'
 
 function Home({ toggleTheme }) {
+    
   return (
     <div className='home'>
     
