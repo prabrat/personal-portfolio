@@ -42,7 +42,7 @@
 .resumeButton {
     display: inline-block;
     text-decoration: none;
-    margin-top: 2rem;
+    margin-top: 4rem;
     background-color: var(--button-bg);  
     color: var(--button-text); 
     padding: 1rem 2rem;
