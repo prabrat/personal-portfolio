@@ -6,6 +6,7 @@ import Home from './sections/home.js'
 import Navbar from './components/Navbar'
 import Skills from './sections/skills.js'
 import Projects from './sections/projects.js'
+import Contact from './sections/contact.js'
 
 function App() {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
@@ -29,6 +30,7 @@ function App() {
         <Home /> 
         <Skills /> 
         <Projects /> 
+        <Contact />
 
       </Router>
     </div>  

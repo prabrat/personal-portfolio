@@ -1,0 +1,82 @@
+:root { 
+    /* Contact Section */ 
+    --contact-bg : rgb(18, 18, 18);
+    --placeholder: rgb(134, 118, 118);
+    --contact-button-bg: white;
+    --contact-button-txt: #000000;
+}
+
+/* Light Theme */ 
+[data-theme="light"] { 
+    --contact-bg: white; 
+    --placeholder: rgb(47, 42, 42);
+    --contact-button-bg: black;
+    --contact-button-txt: white;
+}
+
+.contact { 
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+}
+
+.contact .title { 
+    font-size: 50px;
+    color: var(--text-color);  /* Change text color */
+}
+.contact .form { 
+    display: flex;
+    flex-direction: column;
+}
+
+.contact button { 
+    display: flex;
+    margin-top: 2rem;
+    background-color: var(--contact-button-bg);  
+    color: var(--contact-button-txt); 
+    padding: 1rem 2rem;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    border: 1px solid var(--border-color); 
+    margin-bottom: 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    gap: 30px;
+  }
+
+  form input, form textarea { 
+    height: 30px; 
+    padding: 10px;
+    background-color: var(--contact-bg);
+    border-radius: 8px;
+    border: 1px solid rgb(75, 87, 93); 
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    width: 500px;
+  }
+
+  form textarea {
+     height: 200px;
+  }
+
+  form label { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  form input::placeholder, form textarea::placeholder { 
+    color: var(--placeholder);
+  }
