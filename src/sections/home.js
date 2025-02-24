@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/home.css'; 
-import resume from "../assets/Prabhat Jain-Resume.pdf"
+import resume from "../assets/Prabhat Jain Resume 2:24:25.pdf"
 import tempImg from '../assets/tmp.png'
 
 function Home({ toggleTheme }) {
